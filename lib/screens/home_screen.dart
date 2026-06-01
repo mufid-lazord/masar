@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
         slivers: [
           // Header مخصص
           SliverAppBar(
-            expandedHeight: 160,
+            expandedHeight: 170,
             floating: false,
             pinned: false,
             backgroundColor: AppColors.primary,
@@ -100,7 +100,7 @@ class HomeScreen extends StatelessWidget {
           // المحتوى
           SliverToBoxAdapter(
             child: Transform.translate(
-              offset: const Offset(0, -30),
+              offset: const Offset(0, 10),
               child: Column(
                 children: [
                   // شريط البحث السريع

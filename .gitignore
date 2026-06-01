@@ -1,0 +1,21 @@
+# ملفات Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# مجلدات المنصات المتولّدة تلقائيًا
+android/
+ios/
+web/
+linux/
+macos/
+windows/
+
+# ملفات المحرر
+.idea/
+.vscode/
+*.iml
+.DS_Store
